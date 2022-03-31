@@ -13,7 +13,7 @@ Determiná que será impreso en la consola, sin ejecutar el código.
 x = 1;
 var a = 5;
 var b = 10;
-var c = function(a, b, c) {
+var c = function(a, b, c){
   var x = 10;
   console.log(x);
   console.log(a);
@@ -36,6 +36,7 @@ console.log(b);
 console.log(x);
 //10
 //1
+
 ```
 
 ```javascript
@@ -45,7 +46,7 @@ console.log(x);
 
 console.log(bar); //1
 console.log(baz); //2
-foo(); //hola 
+foo(); //hola
 function foo() { console.log('Hola!'); }
 var bar = 1;
 var baz = 2;
